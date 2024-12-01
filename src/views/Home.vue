@@ -21,10 +21,8 @@
           .col-xl-7.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title Introducción a la Ingeniería
-              h1.home-title.mb-4.text-uppercase Introducción a la Revolución 4.0 en Ingeniería
-              p.descripcion.mb-3 La Revolución 4.0 representa una nueva era industrial caracterizada por la integración de tecnologías digitales, físicas y biológicas, que permite a sistemas ciberfísicos y la inteligencia artificial redefinir procesos productivos y la interacción con el entorno. En este contexto, la inteligencia artificial y el big data juegan roles centrales, facilitando la autonomía y personalización en industrias como las fábricas y ciudades inteligentes. Asimismo, el Internet de las Cosas (IoT) conecta dispositivos para monitorear y optimizar procesos en tiempo real, mientras que los gemelos digitales permiten simular y anticipar fallas, mejorando la eficiencia industrial.
-
-              p.descripcion.mb-4.text-bold ¡Es momento de construir juntos un mundo lleno de posibilidades!
+              h1.home-title.mb-4.text-uppercase Pensamiento Crítico y solución de problemas en ingeniería
+              p.descripcion.mb-3 Esta unidad proporciona una guía exhaustiva sobre habilidades fundamentales para ingenieros, enfocándose en el pensamiento crítico y la resolución de problemas, esenciales en la ingeniería moderna. Destaca la importancia de la ética y la responsabilidad social en la Ingeniería 4.0, abordando temas como la sostenibilidad, el impacto social y la innovación constante. Incluye estudios de casos, glosario de términos clave, y recursos de apoyo bibliográfico y audiovisual. La metodología enfatiza la toma de decisiones informadas, evaluación de alternativas, gestión de riesgos, y herramientas prácticas como el brainstorming, optimización y análisis de costo-beneficio.
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

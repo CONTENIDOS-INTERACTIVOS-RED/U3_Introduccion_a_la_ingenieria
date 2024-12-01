@@ -18,6 +18,12 @@
   100%
     transform: translateY(0px)
 
+.-mt-50px
+  margin-top: -50px
+
+.z-3
+  z-index: 3
+
 .container.tarjeta
   overflow: hidden
 .align-self-base
@@ -36,7 +42,7 @@
 
 .bg-rojo-claro
   background-color: #FCDFDB
-.bg-azul-claro
+.bg-azul
   background-color: #DCEDF8
 .bg-amarillo
   background-color: #FDF3D2
@@ -48,13 +54,20 @@
   background-color: #F5F7FB
 .bg-gris-claro-2
   background-color: #EBF0F7
+
+.bg-morado-1
+  background-color: #652180
 .bg-morado
+  background-color: #5830E2
+.bg-morado:hover
   background-color: #5830E2
 .bg-modaro-oscuro
   background-color: #301A7B
 .bg-modaro-claro
   background-color: #EDE9FB
 
+.bg-rosa-1
+  background-color: #E25CFA !important
 .bg-rosa
   background-color: #F9DDFE
 .bg-rosa-claro
@@ -100,6 +113,9 @@
   &-6
     background-image: url("../assets/componentes/bg-6.svg") !important
     background-position: top
+  &-7
+    background-image: url("../assets/componentes/bg-7.svg") !important
+    background-position: top
 
 .bg-full-width
   background-size: cover
@@ -128,6 +144,21 @@
       color: $color-sistema-texto !important
       font-weight: bold
 
+// Linea Tiempo D
+.linea-tiempo-d__item__content__title
+  padding: 28px
+  border-radius: 5px 5px 0px 0px
+  background-color: #FEF8E7 
+.linea-tiempo-d__item__content__title.active 
+  background-color: #F9C623 
+.linea-tiempo-d__item__content__slot
+  border-radius: 0px 0px 5px 5px
+  background-color: #FEF8E7
+.linea-tiempo-d__item__number
+  background-color: #FEF8E7
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: #F9C623 !important
+
 $custom-card-border-radius: 8px
 $custom-card-shadow: 0 4px 8px rgba(0,0,0,0.1)
 $custom-card-text-bg: #FFF
@@ -151,7 +182,7 @@ $custom-card-img-height: 322px
 .cursor-pointer
   cursor: pointer
 
-.card_hover
+.card-hover
   .custom-image-card
     transition: all 0.2s ease-in-out
   .custom-image-card:hover

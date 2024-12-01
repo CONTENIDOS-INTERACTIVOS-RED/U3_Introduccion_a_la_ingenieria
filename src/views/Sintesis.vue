@@ -1,8 +1,9 @@
 <template lang="pug">
 .curso-main-container.creditos-vista
-  BannerInterno(:titulo="'Unidad 2. Introducción a la Revolución 4.0 en Ingeniería'" :subTitulo="'SÍNTESIS'")
+  BannerInterno(:titulo="'Unidad 3. Pensamiento Crítico y solución de problemas en ingeniería'" :subTitulo="'SÍNTESIS'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-4.mb-md-5 La unidad 2: <strong>Introducción a la Revolución 4.0 en Ingeniería</strong>, explora cómo esta nueva era industrial transforma el entorno a través de la integración de tecnologías digitales, físicas y biológicas. La Revolución 4.0 se caracteriza por la interconexión completa, impulsada por el Internet de las cosas (IoT), la inteligencia artificial y la automatización avanzada, que permite a los objetos conectarse y procesar datos en tiempo real. Estos sistemas ciberfísicos pueden ajustar sus operaciones según las necesidades del entorno, incrementando la eficiencia en sectores como la salud, la energía y la movilidad. Si bien la Revolución 4.0 ofrece muchas oportunidades, también presenta desafíos importantes, como la ciberseguridad y los cambios en el mercado laboral.
+    p.mb-4 En esta unidad, te has sumergido en el apasionante mundo de la resolución de problemas desde la perspectiva de un ingeniero. Has descubierto que la ingeniería no solo se trata de construir cosas, sino también de pensar de manera crítica y creativa para encontrar soluciones a desafíos complejos.
+    p.mb-4.mb-md-5 Has aprendido que para resolver un problema de ingeniería implica seguir una serie de pasos:
      figure
       img(src='@/assets/componentes/sintesis.png', alt='Texto que describa la imagen')
     

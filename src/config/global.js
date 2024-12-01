@@ -29,7 +29,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: '¿Qué es la Revolución 4.0?',
+        titulo: 'Pensamiento crítico y solución de problemas en ingeniería',
         desarrolloContenidos: true,
         subMenu: [],
       },
@@ -37,7 +37,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Impacto de la automatización en la ingeniería',
+        titulo: 'Generación de alternativas en la solución de problemas',
         desarrolloContenidos: true,
         subMenu: [],
       },
@@ -45,7 +45,7 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Digitalización: conceptos simples de IoT ',
+        titulo: 'Ética y responsabilidad social en la ingeniería 4.0',
         desarrolloContenidos: true,
         subMenu: [],
       },
@@ -75,7 +75,7 @@ export default {
       {
         icono: 'fas fa-file-download',
         titulo: 'Descargar PDF',
-        download: 'downloads/Introducción a la ingenieria_U2.zip',
+        download: 'downloads/Introducción a la ingenieria_U3.zip',
       },
       {
         icono: 'fas fa-download',
@@ -92,120 +92,87 @@ export default {
   referencias: [
     {
       referencia:
-        'Cárdenas López, Juan Camilo - López Garzón, Wilmar Ferney. (2019). Tecnología internet of things (IoT) y el big data. Mare Ingenii. Ingenierías, 1 (1), 74-79. Fundación Universitaria San Mateo.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente',
+        'Belandria, José. Importancia de la formación humanística, ecológica, social y ética en los estudios de ingeniería. Revista Ciencia e Ingeniería. Vol.32 supl.1. Red Facultad de Ingeniería. ULA.',
+      link:
+        'https://elibro.net/es/lc/tecnologicadeloriente/titulos/17792?col_q=etica__de__la__ingenieria&col_code=ELC034&prev=col',
     },
     {
       referencia:
-        'Cartagena, J. (s.f.). Industria 4.0 la 4ª revolución industrial.',
-      link: '',
-    },
-    {
-      referencia:
-        'García Moreno, Emilio. (2020). Automatización de procesos industriales: robótica y automática. Editorial de la Universidad Politécnica de Valencia.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente',
-    },
-    {
-      referencia:
-        'José William Ugalde Vicuña, Luis Enrique Soto Chávez. (2022). Desarrollo de competencias técnicas en la práctica de la ingeniería en la revolución industrial 4.0. AlfaPublicaciones.',
-      link: 'https://elicit.com/notebook',
-    },
-    {
-      referencia:
-        'Pérez Calle, Ricardo. (2024). Economía, derecho y empresa ante una nueva era: digitalización, IA, y competitividad en un entorno global. Dykinson.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente',
-    },
-    {
-      referencia: 'Pocho Costa. (s.f.). Inteligencia artificial.',
-      link: 'https://open.spotify.com/show/6Ej4jertUixuVlqG8gYYEX',
-    },
-    {
-      referencia:
-        'Web 1.0, 2.0, 3.0 y 4.0 Diferencias y Características - La Evolución De La Web',
-      link: '',
+        'Zahera-Pérez, Manuel. Industria 4.0 y la Dirección e Ingeniería de Proyectos. Servicio de Publicaciones de la Universidad de Cádiz.',
+      link:
+        'https://elibro.net/es/lc/tecnologicadeloriente/titulos/172949?col_q=ingenier%C3%ADa__4.0&col_code=ELC034&prev=col',
     },
   ],
   glosario: [
     {
-      termino: 'Automatización',
+      termino: 'Alternativas',
+      significado: 'Diferentes opciones o soluciones posibles',
+    },
+    {
+      termino: 'Análisis',
+      significado: 'Estudio detallado de un problema o situación',
+    },
+    {
+      termino: 'Brainstorming',
+      significado: 'Técnica para generar ideas de forma creativa y espontánea',
+    },
+    {
+      termino: 'Causa raíz',
+      significado: 'Origen fundamental de un problema',
+    },
+    {
+      termino: 'Costo',
+      significado: 'Valor económico asociado a una solución',
+    },
+    {
+      termino: 'Empresas sustentables',
       significado:
-        'Uso de tecnologías para realizar tareas de forma automática',
+        'Es aquella que combina el éxito económico con el respeto al medio ambiente y el bienestar social',
     },
     {
-      termino: 'AWS IoT Core',
+      termino: 'Evaluación',
+      significado: 'Juicio de valor sobre la calidad o utilidad de algo',
+    },
+    {
+      termino: 'Implementación',
+      significado: 'Puesta en marcha de una solución',
+    },
+    {
+      termino: 'Investigación',
+      significado: 'Búsqueda de información relevante',
+    },
+    {
+      termino: 'Optimización',
+      significado: 'Búsqueda de la mejor solución posible',
+    },
+    {
+      termino: 'Presupuesto',
+      significado: 'Planificación de los gastos asociados a un proyecto',
+    },
+    {
+      termino: 'Problema',
+      significado: 'Situación que requiere una solución',
+    },
+    {
+      termino: 'Riesgo',
+      significado: 'Posibilidad de que ocurra un evento negativo',
+    },
+    {
+      termino: 'Sector real',
       significado:
-        'Conector que permite conectar una gran cantidad de dispositivos de diferentes tipos y protocolos',
+        'Es la parte de la economía que produce lo que consumimos a diario',
     },
     {
-      termino: 'Azure IoT Hub',
-      significado:
-        'Facilitador de gestión de un gran número de dispositivos, incluyendo tareas como la configuración, actualización y monitoreo',
+      termino: 'Síntesis',
+      significado: 'Combinación de diferentes elementos para formar un todo',
     },
     {
-      termino: 'Big data',
-      significado:
-        'Grandes volúmenes de datos que requieren tecnologías especiales para su análisis',
+      termino: 'Síntomas',
+      significado: 'Señales que indican la presencia de un problema',
     },
     {
-      termino: 'Ciberfísicos',
-      significado:
-        'Sistemas que combinan componentes físicos y digitales, como fábricas inteligentes',
-    },
-    {
-      termino: 'Ciberseguridad',
-      significado:
-        'Protección de sistemas informáticos, redes y datos contra ataques',
-    },
-    {
-      termino: 'Controlador PID',
-      significado:
-        'Es un mecanismo de control muy común en la industria y en diversos sistemas automatizados',
-    },
-    {
-      termino: 'Ethernet o fieldbus',
-      significado:
-        'Es una tecnología de comunicación utilizadas en redes industriales, pero cada una tiene sus propias características y aplicaciones',
-    },
-    {
-      termino: 'Fabricación aditiva',
-      significado: 'Sinónimo de impresión 3D',
-    },
-    {
-      termino: 'Google Cloud IoT Core',
-      significado:
-        'Es un servicio gestionado que forma parte de la plataforma en la nube de Google',
-    },
-    {
-      termino: 'Impresión 3D',
-      significado:
-        'Tecnología que crea objetos tridimensionales a partir de un modelo digital',
-    },
-    {
-      termino: 'Inteligencia artificial',
-      significado:
-        'Capacidad de las máquinas para imitar la inteligencia humana',
-    },
-    {
-      termino: 'Internet de las cosas (IoT)',
-      significado: 'Red de dispositivos físicos conectados a internet',
-    },
-    {
-      termino: 'Machine learning',
-      significado:
-        'Subcampo de la inteligencia artificial enfocado en el aprendizaje automático',
-    },
-    {
-      termino: 'Neurociencia',
-      significado: 'Estudio del sistema nervioso',
-    },
-    {
-      termino: 'Plataformas digitales',
-      significado:
-        'Entornos virtuales que facilitan la interacción y el intercambio de información',
-    },
-    {
-      termino: 'Realidad aumentada',
-      significado: 'Tecnología que superpone elementos virtuales al mundo real',
+      termino: 'Solución',
+      significado: 'Respuesta o acción que resuelve un problema',
     },
   ],
   complementario: [

@@ -1,1 +1,2 @@
-module.exports = 'Unidad 2. Introducción a la Revolución 4.0 en Ingeniería'
+module.exports =
+  'Unidad 3. Pensamiento Crítico y solución de problemas en ingeniería'
