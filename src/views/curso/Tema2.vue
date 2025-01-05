@@ -19,9 +19,9 @@
         .row.mb-4
           .col-12.col-xl-6.d-flex(data-aos="fade-right")
             TarjetaAudio.color-primario.bg-white.my-auto(
-            texto="Proceso de descarga de MySQL Server Community y MySQL Workbench"
+            texto="<b>Brainstorming</b>, una herramienta fundamental en el ámbito de la ingeniería"
             tiempo
-            :audio="require('../../assets/componentes/audios/audio-ej.mp3')"
+            :audio="require('../../assets/componentes/audios/podcast brainstorming_mezcla.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
 
@@ -209,7 +209,7 @@
         .col-12.col-xl-7.col-xxl-8.d-flex.ps-4.ps-xl-5.align-items-center.flex-column(data-aos="fade-right")
           h2.mb-4.pb-2.me-auto Evaluación de riesgos y su impacto en la gestión de proyectos en ingeniería
           p.mb-5  Lo invitamos a descubrir la importancia de la evaluación de riesgos en proyectos de ingeniería, un proceso clave para garantizar la seguridad, minimizar pérdidas y prevenir accidentes. Para profundizar en este tema, lo invitamos a consultar el documento.
-          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_Evaluación de riesgos.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Evaluación de riesgos y su impacto en la gestión de proyectos en ingeniería.
 
@@ -221,7 +221,7 @@
         .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column(data-aos="fade-right")
           h2.mb-4.pb-2.me-auto Análisis de beneficios: clave para la toma de decisiones en ingeniería
           p.mb-5  Lo invitamos a explorar la relevancia del análisis de beneficios en proyectos de ingeniería, una herramienta esencial para evaluar alternativas en términos de eficiencia, sostenibilidad y alineación con los objetivos estratégicos. Para profundizar en este tema, lo invitamos a consultar el documento.
-          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_Análisis de beneficios.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Análisis de beneficios: clave para la toma de decisiones en ingeniería.
         .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="fade-left")
@@ -254,7 +254,7 @@
           p(numero="1" titulo="Criterios de evaluación") Factores técnicos (viabilidad, seguridad), económicos (costos y ROI), ambientales (impacto), sociales (empleo) y legales (cumplimiento normativo). 
           p(numero="2" titulo="Pesos de los criterios") Asignación de importancia relativa a cada criterio para reflejar su relevancia en el proyecto y establecer prioridades. 
           p(numero="3" titulo="Herramientas de análisis") Uso de matrices de decisión, análisis multicriterio y análisis de sensibilidad para evaluar alternativas y gestionar la incertidumbre. 
-          p(numero="4" titulo="Gestión de proyectos") Consideración de la percepción de stakeholders y la experiencia de expertos para incorporar perspectivas adicionales en la toma de decisiones. 
+          p(numero="4" titulo="Factores humanos") Consideración de la percepción de stakeholders y la experiencia de expertos para incorporar perspectivas adicionales en la toma de decisiones.
 
     p.mb-4 El proceso incluye la identificación de alternativas, definición de criterios, asignación de pesos, evaluación, selección y, finalmente, implementación y seguimiento de la mejor opción.
     h2 Justificación
@@ -288,7 +288,7 @@
         .col-12.col-xl-7.d-flex.ps-4.ps-xl-5.align-items-center.flex-column(data-aos="fade-left")
           h2.mb-4.pb-2.me-auto Implementación de soluciones: claves para una ejecución exitosa 
           p.mb-5  Lo invitamos a conocer la importancia de una planificación cuidadosa en la implementación de soluciones en proyectos de ingeniería, un paso esencial para garantizar una ejecución eficaz y eficiente. Para profundizar en este tema, lo invitamos a consultar el documento.
-          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_Implementación de soluciones.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Implementación de soluciones: claves para una ejecución exitosa 
 
@@ -398,7 +398,7 @@
               p.mb-0 <strong>Identificación de áreas de mejora:</strong> Análisis de desviaciones y propuestas de mejoras.
             div.d-flex
               img.mt-2.me-2.d-flex.align-self-base(style="width: 15px" src='@/assets/curso/arrow.svg', alt='Texto que describa la imagen')
-              p.mb-0 <strong>Lecciones aprendidas:</strong> Documentación de aprendizajes y transferencia de conocimiento al equipo
+              p.mb-0 <strong>Lecciones aprendidas:</strong> Documentación de aprendizajes y transferencia de conocimiento al equipo.
 
           .col-5.d-none.d-xl-block(data-aos="fade-left")
             img(src='@/assets/curso/unidad/img-49.png', alt='Texto que describa la imagen')
@@ -471,7 +471,7 @@
                       p.text-bold.mb-2.text-small  Aspectos claves para la gestión del presupuesto
                       p.text-small.mb-0  Lo invitamos a conocer  los aspectos clave para una gestión presupuestaria efectiva, para lo cual lo deberá consultar el documento.
                     .col-sm-auto
-                      a.download-btn.boton.bg-morado.text-white(:href="obtenerLink('/downloads/.pdf')" target="_blank")
+                      a.download-btn.boton.bg-morado.text-white(:href="obtenerLink('/downloads/Anexos_Aspectos clave para una gestión presupuestaria efectiva.pdf')" target="_blank")
                         span.text-small.text-app Descargar
                         i.fas.fa-arrow-right.text-app
 
@@ -499,18 +499,31 @@
           img.me-4(style="width: 90px" src='@/assets/curso/unidad/img-58.svg', alt='Texto que describa la imagen')
           p.pe-xl-5.mb-0.text-white <strong>Ejemplo práctico de ingeniería práctico:</strong> un ingeniero mecánico busca alternativas más económicas para fabricar un componente de una máquina.
 
-    .row.bg-azul.bg-full-width.py-4.mb-4
+    .row.bg-azul.bg-full-width.py-4.mb-5
       div.px-5.pb-md-3.py-4.d-flex
         .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="fade-right")
           img.h-100(src='@/assets/curso/unidad/img-59.png', alt='Texto que describa la imagen')
         .col-12.col-xl-7.d-flex.ps-4.ps-xl-5.align-items-center.flex-column(data-aos="fade-left")
           h2.mb-4.pb-2.me-auto ¿Sabías qué  herramientas simples como los diagramas de flujo y el análisis de causa y efecto pueden transformar la resolución de problemas?
           p.mb-5 En este documento, <strong>Herramientas simples para la resolución de problemas</strong>, explorará cómo los diagramas de flujo facilitan la comprensión visual de procesos y cómo el análisis de causa y efecto permite identificar causas raíz de problemas. Ambas técnicas ofrecen una visión clara, ayudan a optimizar procesos y promueven la colaboración en equipo. Descubra cómo aplicar estas herramientas para abordar desafíos con precisión y tomar decisiones informadas.
-          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_Herramientas simples para la resolución de problemas.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong>  ¿Sabías qué  herramientas simples como los diagramas de flujo y el análisis de causa y efecto pueden transformar la resolución de problemas?
       
-    
+    .bg-full-width.border-top-9-azul
+      .px-4.px-md-5.pt-5.pb-0
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/27335") Bertero, R. (2010). Problemas en el campo de las estructuras y de la energía. ANI - Academia Nacional de Ingeniería.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://youtu.be/GXnQu73_LE8") Keisen Consultores. (2020). Solución de problemas: El método general de 8 pasos [Vídeo]
+          .col-12.col-md-6.col-lg-3
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario') 
 
 
 </template>

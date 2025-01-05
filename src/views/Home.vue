@@ -20,8 +20,8 @@
           //- Columna derecha con información
           .col-xl-7.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
-              p.home-main-title Introducción a la Ingeniería
-              h1.home-title.mb-4.text-uppercase Pensamiento Crítico y solución de problemas en ingeniería
+              p.home-main-title UNIDAD 3
+              h1.home-title.mb-4 Pensamiento Crítico y solución de problemas en ingeniería
               p.descripcion.mb-3 Esta unidad proporciona una guía exhaustiva sobre habilidades fundamentales para ingenieros, enfocándose en el pensamiento crítico y la resolución de problemas, esenciales en la ingeniería moderna. Destaca la importancia de la ética y la responsabilidad social en la Ingeniería 4.0, abordando temas como la sostenibilidad, el impacto social y la innovación constante. Incluye estudios de casos, glosario de términos clave, y recursos de apoyo bibliográfico y audiovisual. La metodología enfatiza la toma de decisiones informadas, evaluación de alternativas, gestión de riesgos, y herramientas prácticas como el brainstorming, optimización y análisis de costo-beneficio.
 
               .button-container.mt-auto
@@ -58,7 +58,6 @@ export default {
       max-width: 1378px
   .home-title
     font-size: 26px !important
-    font-weight: normal
     @media (min-width: 992px)
       font-size: 38px !important
   .home-main-title

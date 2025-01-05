@@ -39,7 +39,7 @@
               p.text-bold.mb-4.text-center Implementar soluciones efectivas
               p.px-1.text-small.mb-0.d-flex.text-center Llevarán sus ideas a la práctica de manera exitosa.
 
-    p.mb-2.text-bold ¿Cómo vamos a explorar este tema?
+    p.mb-2.text-bold ¿Cómo se va a lograrlo?
     p.mb-4 A lo largo de esta unidad, se explorará los siguientes temas:
 
 

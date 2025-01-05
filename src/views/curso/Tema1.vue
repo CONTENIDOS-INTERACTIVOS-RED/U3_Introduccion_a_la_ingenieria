@@ -27,7 +27,7 @@
                   p.text-bold.mb-2.text-small  Pensamiento crítico y solución de problemas en ingeniería
                   p.text-small.mb-0 Lo invitamos a conocer algunas de las razones por las cuales los ingenieros enfrentan situaciones donde el pensamiento crítico y creativo es fundamental, para lo cual lo invitamos a consultar el documento.
                 .col-sm-auto
-                  a.download-btn.boton.bg-morado.text-white(:href="obtenerLink('/downloads/.pdf')" target="_blank")
+                  a.download-btn.boton.bg-morado.text-white(:href="obtenerLink('/downloads/Anexos_Pensamiento crítico.pdf')" target="_blank")
                     span.text-small.text-app Descargar
                     i.fas.fa-arrow-right.text-app
 
@@ -38,18 +38,32 @@
         img(src='@/assets/curso/unidad/img-13.png', alt='Texto que describa la imagen')
 
 
-    .row.bg-azul.bg-full-width.py-4
+    .row.bg-azul.bg-full-width.py-4.mb-5
       div.px-5.pb-md-3.py-4.d-flex
         .d-none.d-xl-block.col-xl-5.col-xxl-4.mx-auto.mt-4.mt-xl-0(data-aos="fade-left")
           img.h-100(src='@/assets/curso/unidad/img-14.png', alt='Texto que describa la imagen')
         .col-12.col-xl-7.col-xxl-8.d-flex.ps-4.ps-xl-5.align-items-center.flex-column(data-aos="fade-right")
           h2.mb-4.pb-2.me-auto ¿Sabías que la investigación en ingeniería es clave para resolver problemas complejos? 
           p.mb-5 En el documento Investigaciones clave en ingeniería: antecedentes, causas, soluciones e impacto, descubrirá cómo los ingenieros investigan antecedentes, causas y soluciones para desarrollar respuestas innovadoras. A través de ejemplos prácticos y análisis de datos, se muestra cómo la ingeniería utiliza la investigación para tomar decisiones informadas y efectivas.
-          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexo_Investigaciones clave en ingeniería.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Investigaciones clave en ingeniería: antecedentes, causas, soluciones e impacto
              
 
+    .bg-full-width.border-top-9-azul
+      .px-4.px-md-5.pt-5.pb-0
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/22325") Mestre, U. (2009). La formación de habilidades en estudiantes de ingeniería. Editorial Universitaria.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://youtu.be/NgIG029_IM4") Universidad continental (2019). El problema de la investigación [Vídeo]
+          .col-12.col-md-6.col-lg-3
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
 
              
 

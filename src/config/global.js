@@ -49,6 +49,11 @@ export default {
         desarrolloContenidos: true,
         subMenu: [],
       },
+      {
+        nombreRuta: 'sintesis',
+        titulo: 'Síntesis',
+        desarrolloContenidos: true,
+      },
     ],
     subMenu: [
       // {
@@ -73,19 +78,9 @@ export default {
         nombreRuta: 'referencias',
       },
       {
-        icono: 'fas fa-file-download',
-        titulo: 'Descargar PDF',
-        download: 'downloads/Introducción a la ingenieria_U3.zip',
-      },
-      {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
         download: 'downloads/material.zip',
-      },
-      {
-        icono: 'far fa-registered',
-        titulo: 'Síntesis',
-        nombreRuta: 'sintesis',
       },
     ],
   },
@@ -106,73 +101,73 @@ export default {
   glosario: [
     {
       termino: 'Alternativas',
-      significado: 'Diferentes opciones o soluciones posibles',
+      significado: 'Diferentes opciones o soluciones posibles.',
     },
     {
       termino: 'Análisis',
-      significado: 'Estudio detallado de un problema o situación',
+      significado: 'Estudio detallado de un problema o situación.',
     },
     {
       termino: 'Brainstorming',
-      significado: 'Técnica para generar ideas de forma creativa y espontánea',
+      significado: 'Técnica para generar ideas de forma creativa y espontánea.',
     },
     {
       termino: 'Causa raíz',
-      significado: 'Origen fundamental de un problema',
+      significado: 'Origen fundamental de un problema.',
     },
     {
       termino: 'Costo',
-      significado: 'Valor económico asociado a una solución',
+      significado: 'Valor económico asociado a una solución.',
     },
     {
       termino: 'Empresas sustentables',
       significado:
-        'Es aquella que combina el éxito económico con el respeto al medio ambiente y el bienestar social',
+        'Es aquella que combina el éxito económico con el respeto al medio ambiente y el bienestar social.',
     },
     {
       termino: 'Evaluación',
-      significado: 'Juicio de valor sobre la calidad o utilidad de algo',
+      significado: 'Juicio de valor sobre la calidad o utilidad de algo.',
     },
     {
       termino: 'Implementación',
-      significado: 'Puesta en marcha de una solución',
+      significado: 'Puesta en marcha de una solución.',
     },
     {
       termino: 'Investigación',
-      significado: 'Búsqueda de información relevante',
+      significado: 'Búsqueda de información relevante.',
     },
     {
       termino: 'Optimización',
-      significado: 'Búsqueda de la mejor solución posible',
+      significado: 'Búsqueda de la mejor solución posible.',
     },
     {
       termino: 'Presupuesto',
-      significado: 'Planificación de los gastos asociados a un proyecto',
+      significado: 'Planificación de los gastos asociados a un proyecto.',
     },
     {
       termino: 'Problema',
-      significado: 'Situación que requiere una solución',
+      significado: 'Situación que requiere una solución.',
     },
     {
       termino: 'Riesgo',
-      significado: 'Posibilidad de que ocurra un evento negativo',
+      significado: 'Posibilidad de que ocurra un evento negativo.',
     },
     {
       termino: 'Sector real',
       significado:
-        'Es la parte de la economía que produce lo que consumimos a diario',
+        'Es la parte de la economía que produce lo que consumimos a diario.',
     },
     {
       termino: 'Síntesis',
-      significado: 'Combinación de diferentes elementos para formar un todo',
+      significado: 'Combinación de diferentes elementos para formar un todo.',
     },
     {
       termino: 'Síntomas',
-      significado: 'Señales que indican la presencia de un problema',
+      significado: 'Señales que indican la presencia de un problema.',
     },
     {
       termino: 'Solución',
-      significado: 'Respuesta o acción que resuelve un problema',
+      significado: 'Respuesta o acción que resuelve un problema.',
     },
   ],
   complementario: [
