@@ -45,7 +45,7 @@
         .col-12.col-xl-7.col-xxl-8.d-flex.ps-4.ps-xl-5.align-items-center.flex-column(data-aos="fade-right")
           h2.mb-4.pb-2.me-auto ¿Sabías que la investigación en ingeniería es clave para resolver problemas complejos? 
           p.mb-5 En el documento Investigaciones clave en ingeniería: antecedentes, causas, soluciones e impacto, descubrirá cómo los ingenieros investigan antecedentes, causas y soluciones para desarrollar respuestas innovadoras. A través de ejemplos prácticos y análisis de datos, se muestra cómo la ingeniería utiliza la investigación para tomar decisiones informadas y efectivas.
-          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexo_Investigaciones clave en ingeniería.pdf')" target="_blank")
+          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexo_Investigaciones_clave_en_ingenieria.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Investigaciones clave en ingeniería: antecedentes, causas, soluciones e impacto
              
